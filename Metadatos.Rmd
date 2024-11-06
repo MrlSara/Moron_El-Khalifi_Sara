@@ -1,0 +1,14 @@
+---
+title: "Metadatos"
+author: "Sara Morón El-Khalifi"
+date: "2024-11-04"
+output: pdf_document
+---
+```{r}
+library(readxl)
+GastricCancer_NMR <- read_excel("C:/Users/smjrk/OneDrive/Escritorio/Análisis de datos ómicos/GastricCancer_NMR.xlsx")
+View(GastricCancer_NMR)
+metadatos_GastricCancer <- GastricCancer_NMR[, 1:4]
+metadatos_GastricCancer
+```
+
